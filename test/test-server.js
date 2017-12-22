@@ -1,3 +1,14 @@
+'use strict';
+
+
+// Using your clone of node - shopping - list - integration - tests as a starting point, write tests for GET, POST, PUT, and DELETE requests to / recipes.
+
+// Do your work on a new branch called tests -for-recipes.
+
+// You should write one test for the normal case for each of the four request methods to / recipes.Optionally, you can write one or two additional tests for important edge cases.
+
+//   Remember, you can run your tests with the npm test command.
+
 const chai = require('chai');
 const chaiHttp = require('chai-http');
 
