@@ -1,9 +1,9 @@
-language: node_js
-node_js: node
+language: "node_js"
+node_js: "node"
 deploy: "linda-brent-dec22-integration-testing"
-  provider: heroku
+  provider: "heroku"
   api_key:
     secure: "ctmQdgzYXg2mNyQPoNbLYQ0yoRcxCkTyrjszO9cum8OQXV6CqEBJWxkAKYV9iFh6oKTfBRjj+W+JFxAw9lf0ruZNg5FFX64nVjFHX2NaThTl0c2OyWGHhGU2FujshrMoO8+4WS0TFj/X4wOoVKVDqQUjPIK1leChI0gYGTWM/JrAfAG3TiGML0rsPflMAPkGOfLza+f76IL6ohDg6FNSlhkaM6WqYMWAryLj1+xwEKM3Wk8fepFhD2Eks3Gwb5BJHzDdfOZgSHXAFsf5YVKiJuyOVXtjnuK95QA2k4RYH7qKlDGafhWhrQ71H+ppka8ZTETJQolhzidcDBTSNHksiHopf76DJPBJfth5nDJSck+GpA1AcPS9uydTvdOc3VI36EftSE6p4gJXOgxzAe6lIaYUSRBR1Dztp+jiMZd7fpxcYAJpcNvEqup8kqo51kpM0wOe2iGapK9CsqtURSHloGVLpheogqW9y6D0ij5j0UKqZBXsLf5n/idSsvl/8COHU19ACKIF/X4K5JhWeh5S7nSr2Gpu9ksex5N30EezWrsbytuZHvZqM7pQU2RQbFJfdkc5nE0V6uz2B3CrZC9vJdCezkOyLivmNjEtrSojDYILagLq8GoOAwDfJqkqGNctgolGASc9F3jnWnB1eA8cmjMgi70Il+4yu2uSypjgTW8="
-  app: linda-brent-dec22-integration-testing
+  app: "linda-brent-dec22-integration-testing"
   on:
-    repo: thinkful-ei17/linda-brent-dec22-integration-testing
+    repo: "thinkful-ei17/linda-brent-dec22-integration-testing"
