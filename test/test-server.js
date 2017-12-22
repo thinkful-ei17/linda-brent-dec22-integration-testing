@@ -179,4 +179,20 @@ describe('Recipe list', function(){
       });
   });
 
+  it('should add a new recipe on post', function(){
+    const newItem = {name:'chocolte milk', ingredients:['chocolate','milk']};
+    return chai.request(app)
+      .post('/recipes')
+      .send(newItem)
+      .then(function(res) {
+        res.should.have.status(201);
+        res.should.be.json;
+        res.should.be.a('object');
+        res.body.should.include.keys('id', 'name', 'ingredients');
+        res.body.id.should.not.be.null;
+        res.body.should.deep.equal(Object.assign(newItem, {id:res.body.id}));
+      });
+  });
+
 });
+
