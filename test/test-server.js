@@ -138,7 +138,7 @@ describe('Shopping List', function() {
   it('should delete items on DELETE', function() {
     return chai.request(app)
       // first have to get so we have an `id` of item
-      // to delete
+      // to delet
       .get('/shopping-list')
       .then(function(res) {
         return chai.request(app)
